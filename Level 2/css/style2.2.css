@@ -1,0 +1,45 @@
+body {
+    height: 1000px;
+}
+
+.one{
+	line-height: 60px;
+	letter-spacing: 30px;
+	width: 1200px;
+}
+
+.two{
+	line-height: 40px;
+	letter-spacing: 25px;
+	margin: 0 40px;
+	width: 800px;
+}
+
+.three{
+	line-height: 20px;
+	letter-spacing: 20px;
+	margin: 0 80px;
+	width: 600px;
+}
+
+.four{
+	line-height: 15px;
+	letter-spacing: 15px;
+	margin: 0 120px;
+	width: 400px;
+}
+
+.five{
+	line-height: 10px;
+	letter-spacing: 10px;
+	margin: 0 140px;
+	width: 200px;
+}
+
+.six{
+	line-height: 5px;
+	letter-spacing: 5px;
+	margin: 0 160px;
+	width: 100px;
+}
+

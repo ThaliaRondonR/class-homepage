@@ -1,0 +1,22 @@
+body{
+	margin: 5% 10%;
+}
+
+.small-large{
+	font-size: 5px;
+}
+
+.small-large:hover{
+	font-size: 70px;
+	color: red;
+}
+
+.large-small{
+	font-size: 50px;
+	text-transform: capitalize;
+}
+
+.large-small:hover{
+	font-size: 30px;
+	opacity: 0.2;
+}

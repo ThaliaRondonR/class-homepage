@@ -1,0 +1,18 @@
+body {
+    height: 600px;
+    margin: 30px 150px;
+}
+
+p{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: black dotted 2px;
+    padding: 100px;
+    line-height: 50px;
+    float:right;
+    margin: 30px;
+}
+
+
+

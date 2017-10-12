@@ -1,0 +1,106 @@
+body{
+    width: 1000px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 10%;
+    padding: 1%;
+}
+
+#one{
+  -ms-transform: rotate(5deg); /* IE 9 */
+    -webkit-transform: rotate(5deg); /* Chrome, Safari, Opera */
+    transform: rotate(5deg);
+}
+#two{
+  -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Chrome, Safari, Opera */
+    transform: rotate(10deg);
+}
+
+#three{
+  -ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Chrome, Safari, Opera */
+    transform: rotate(15deg);
+}
+
+#four{
+  -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Chrome, Safari, Opera */
+    transform: rotate(20deg);
+}
+
+#five{
+  -ms-transform: rotate(25deg); /* IE 9 */
+    -webkit-transform: rotate(25deg); /* Chrome, Safari, Opera */
+    transform: rotate(25deg);
+}
+
+#six{
+  -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    transform: rotate(30deg);
+}
+
+#seven{
+  -ms-transform: rotate(35deg); /* IE 9 */
+    -webkit-transform: rotate(35deg); /* Chrome, Safari, Opera */
+    transform: rotate(35deg);
+}
+
+#eight{
+  -ms-transform: rotate(40deg); /* IE 9 */
+    -webkit-transform: rotate(40deg); /* Chrome, Safari, Opera */
+    transform: rotate(40deg);
+}
+
+#nine{
+  -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+#ten{
+  -ms-transform: rotate(50deg); /* IE 9 */
+    -webkit-transform: rotate(50deg); /* Chrome, Safari, Opera */
+    transform: rotate(50deg);
+}
+
+#eleven{
+  -ms-transform: rotate(55deg); /* IE 9 */
+    -webkit-transform: rotate(55deg); /* Chrome, Safari, Opera */
+    transform: rotate(55deg);
+}
+
+#twelve{
+  -ms-transform: rotate(60deg); /* IE 9 */
+    -webkit-transform: rotate(60deg); /* Chrome, Safari, Opera */
+    transform: rotate(60deg);
+}
+
+#thirteen{
+  -ms-transform: rotate(65deg); /* IE 9 */
+    -webkit-transform: rotate(65deg); /* Chrome, Safari, Opera */
+    transform: rotate(65deg);
+}
+
+#fourteen{
+  -ms-transform: rotate(70deg); /* IE 9 */
+    -webkit-transform: rotate(70deg); /* Chrome, Safari, Opera */
+    transform: rotate(70deg);
+}
+
+#fifteen{
+  -ms-transform: rotate(75deg); /* IE 9 */
+    -webkit-transform: rotate(75deg); /* Chrome, Safari, Opera */
+    transform: rotate(75deg);
+}
+
+#sixteen{
+  -ms-transform: rotate(80deg); /* IE 9 */
+    -webkit-transform: rotate(80deg); /* Chrome, Safari, Opera */
+    transform: rotate(80deg);
+}
+

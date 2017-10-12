@@ -1,0 +1,28 @@
+div {
+ writing-mode: vertical-rl;
+ text-orientation: upright;
+ display: inline-block;
+ margin: 50px;
+ text-align: left;
+ float: right
+}
+
+#fade-one{
+	opacity: 0.75;
+	line-height: 20px;
+}
+
+#fade-two{
+	opacity: 0.5;
+	line-height: 30px;
+}
+
+#fade-three{
+	opacity: 0.25;
+	line-height: 40px;
+}
+
+.upright{
+	text-orientation: upright;
+}
+

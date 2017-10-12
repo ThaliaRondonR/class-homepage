@@ -1,0 +1,36 @@
+body{
+  width: 1800px;
+}
+
+.one{
+  font-size: 256px;
+}
+
+.two{
+  font-size: 128px
+}
+
+.three{
+  font-size: 64px;
+}
+
+.four{
+  font-size: 32px
+}
+
+.five{
+  font-size: 16px;
+}
+
+.six{
+  font-size: 8px
+}
+
+.seven{
+  font-size: 4px;
+}
+
+.eight{
+  font-size: 2px
+}
+

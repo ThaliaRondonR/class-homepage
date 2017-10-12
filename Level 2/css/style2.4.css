@@ -1,0 +1,19 @@
+body {
+    height: 1000px;
+    padding: 20px 100px;
+}
+
+ul{
+    position: relative;
+    left: 15px;
+}
+
+div{
+    display:inline-block;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.finale{
+    letter-spacing: 5px;
+}

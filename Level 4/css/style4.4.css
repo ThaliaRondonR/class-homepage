@@ -1,0 +1,19 @@
+div{
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.first{
+	font-size: 120px;
+	text-transform: uppercase;
+	font-family: helvetica;
+	text-decoration: overline;
+}
+
+.last{
+	font-size: 60px;
+	text-decoration-style: double;
+	font-family: helvetica;
+	font-style: oblique;
+	color: grey;
+}

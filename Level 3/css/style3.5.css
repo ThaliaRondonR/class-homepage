@@ -1,0 +1,43 @@
+body{
+	margin: 5%;
+}
+div {
+    margin: 10%;
+    color: black;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    from {color: white;}
+    to {color: black;}
+}
+
+#delay-two{
+    color: black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+}
+
+#delay-three{
+    color: black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 10s;
+    animation-fill-mode: backwards;
+}
+
+#delay-four{
+    color: black;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 15s;
+    animation-fill-mode: backwards;
+}
+
+
+
+
+
