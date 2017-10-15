@@ -1,5 +1,5 @@
 div {
- writing-mode: vertical-rl;
+ writing-mode: vertical-lr;
  display: inline-block;
  margin: 50px;
  text-align: left;
