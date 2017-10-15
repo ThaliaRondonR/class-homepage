@@ -1,5 +1,5 @@
 div {
- writing-mode: vertical-lr;
+ writing-mode: vertical-rl;
  display: inline-block;
  margin: 50px;
  text-align: left;
@@ -23,5 +23,6 @@ div {
 
 .upright{
 	text-orientation: upright;
+	letter-spacing: 10px;
 }
 
