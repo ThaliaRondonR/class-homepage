@@ -1,8 +1,12 @@
 body{
-	font-size: 18px;
-	line-height: 25px;
 	margin: 8%;
 }
+
+p{
+	font-size: 18px;
+	line-height: 25px;
+}
+
 .tooltip .tooltip-text { 
 	background: black;
 	color: white;

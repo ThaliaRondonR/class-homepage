@@ -1,3 +1,7 @@
+body{
+	position: relative;
+	left: 50px;
+}
 .ladder-one{
     position: relative;
     left: 20px;
