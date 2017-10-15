@@ -1,6 +1,5 @@
-body {
-    height: 600px;
-    margin: 30px auto;
+div{
+    margin: 30px 5%;
 }
 
 p{
@@ -10,8 +9,11 @@ p{
     border: black dotted 2px;
     padding: 100px;
     line-height: 50px;
-    float:right;
-    margin: 20px;
+    clear: both;
+}
+
+.right{
+    float: right;
 }
 
 
