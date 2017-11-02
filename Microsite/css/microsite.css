@@ -1,0 +1,167 @@
+body{
+	min-width: 400px;
+}
+
+.main{
+    min-width: 320px;
+    clear: both;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+    }
+
+.one-row {
+    min-width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+    }
+    
+.odd-row{
+	position: relative;
+	left: 35px;
+}
+.brick {
+	height: 40px;
+	width: 100px;
+	margin: 2px;
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    }
+
+.misalign {
+	height: 40px;
+	width: 35px;
+	margin: 2px;
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+    }
+
+ .brick-overlay {
+	height: 40px;
+	width: 100px;
+	margin: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  	transition: .5s ease;
+    }
+
+.old-brick{
+	background-color: #a7cbce;
+	height: 40px;
+	width: 100px;
+	margin: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.yellow-brick{
+	background-color: #e8df96;
+	height: 40px;
+	width: 100px;
+	margin: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.brown-brick{
+	background-color: #965d3a;
+	height: 40px;
+	width: 100px;
+	margin: 2px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    display: flex;
+}
+
+
+.brick-overlay:hover ~ .brick-overlay, .brick-overlay:hover {
+  background-color: white;
+  opacity: 1;
+}
+
+.old-brick:hover ~ .old-brick, .old-brick:hover {
+  background-color: white;
+  opacity: 1;
+}
+
+.yellow-brick:hover ~ .yellow-brick, .yellow-brick:hover {
+  background-color: white;
+  opacity: 1;
+}
+
+.brown-brick:hover ~ .brown-brick, .brown-brick:hover {
+  background-color: white;
+  opacity: 1;
+}
+
+.text {
+ 	color: #cc8051;
+ 	font-family: sans-serif;
+ 	text-transform: uppercase;
+ 	font-size: 40px;
+ 	align-items: center;
+ 	justify-content: center;
+ 	transition: .5s ease;
+}
+
+.description{
+    color: #a7cbce;
+    font-family: serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease;
+}
+
+.yellow-text {
+ 	color: #e8df96;
+ 	font-family: sans-serif;
+ 	text-transform: uppercase;
+ 	font-size: 18px;
+ 	align-items: center;
+ 	justify-content: center;
+ 	transition: .5s ease;
+}
+
+.brown-text {
+ 	color: #965d3a;
+ 	font-family: sans-serif;
+ 	text-transform: uppercase;
+ 	font-size: 18px;
+ 	align-items: center;
+ 	justify-content: center;
+ 	transition: .5s ease;
+}
+
+
+.text:hover ~ .text, .text:hover {
+  opacity: 1;
+}
+
+.italicized{
+    font-style: italic;
+}
+
+
+
