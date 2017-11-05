@@ -1,0 +1,177 @@
+body{
+	min-width: 950px;
+    margin: 0;
+    padding: 0;
+}
+
+
+button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.brick-layout {
+    max-width: 2000px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    }
+    
+.first-half {
+    flex: 0.5; 
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 3px;
+    order: 1;
+}
+
+.last-half {
+    flex: 0.5; 
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 3px;
+    order: 10;
+}
+
+.brick-one {
+    flex: 1; 
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 3px;
+    order: 2;
+}
+
+.brick-two {
+    flex: 1; 
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 3px;
+    order: 3;
+}
+
+.brick-three {
+    flex: 1; 
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 3px;
+    order: 4;
+}
+
+
+.brick-four {
+    flex: 1; 
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 3px;
+    order: 5;
+}
+
+.brick-five {
+    flex: 1; 
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 3px;
+    order: 6;
+}
+
+.brick-six {
+    flex: 1; 
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 3px;
+    order: 7;
+}
+
+.brick-seven {
+    flex: 1; 
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 3px;
+    order: 8;
+}
+
+.brick-eight {
+    flex: 1; 
+    background-color: #cc8051;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 3px;
+    order: 9;
+}
+
+
+.red-brick{
+    background-color: #cc8051;
+    color: #cc8051;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 40px
+    }
+
+.blue-brick{
+    background-color: #a7cbce;
+    color: #a7cbce;
+    font-family: serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.yellow-brick{
+    background-color: #e8df96;
+    color: #e8df96;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.brown-brick{
+    background-color: #965d3a;
+ 	color: #965d3a;
+ 	font-family: sans-serif;
+ 	text-transform: uppercase;
+ 	font-size: 18px;
+}
+
+.italicized{
+    font-style: italic;
+}
+
+
+
