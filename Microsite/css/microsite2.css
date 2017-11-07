@@ -1,5 +1,5 @@
 body{
-	min-width: 950px;
+    height: 1080px;
     margin: 0;
     padding: 0;
 }
@@ -18,8 +18,7 @@ button {
 }
 
 .brick-layout {
-    max-width: 2000px;
-    height: 60px;
+    height: 6%;
     background-color: white;
     display: flex;
     }
@@ -32,7 +31,6 @@ button {
     justify-content: center;
     box-sizing: border-box;
     margin: 3px;
-    order: 1;
 }
 
 .last-half {
@@ -43,7 +41,6 @@ button {
     justify-content: center;
     box-sizing: border-box;
     margin: 3px;
-    order: 10;
 }
 
 .brick-one {
@@ -54,7 +51,6 @@ button {
     justify-content: center;
     box-sizing: border-box;
     margin: 3px;
-    order: 2;
 }
 
 .brick-two {
@@ -65,7 +61,6 @@ button {
     justify-content: center;
     box-sizing: border-box;
     margin: 3px;
-    order: 3;
 }
 
 .brick-three {
@@ -76,7 +71,6 @@ button {
     justify-content: center;
     box-sizing: border-box;
     margin: 3px;
-    order: 4;
 }
 
 
@@ -88,7 +82,6 @@ button {
     justify-content: center;
     box-sizing: border-box;
     margin: 3px;
-    order: 5;
 }
 
 .brick-five {
@@ -99,7 +92,6 @@ button {
     justify-content: center;
     box-sizing: border-box;
     margin: 3px;
-    order: 6;
 }
 
 .brick-six {
@@ -110,7 +102,6 @@ button {
     justify-content: center;
     box-sizing: border-box;
     margin: 3px;
-    order: 7;
 }
 
 .brick-seven {
@@ -121,7 +112,6 @@ button {
     justify-content: center;
     box-sizing: border-box;
     margin: 3px;
-    order: 8;
 }
 
 .brick-eight {
@@ -132,7 +122,6 @@ button {
     justify-content: center;
     box-sizing: border-box;
     margin: 3px;
-    order: 9;
 }
 
 
@@ -157,21 +146,163 @@ button {
     background-color: #e8df96;
     color: #e8df96;
     font-family: sans-serif;
-    text-transform: uppercase;
     font-size: 18px;
+    text-transform: none;
 }
 
 .brown-brick{
     background-color: #965d3a;
  	color: #965d3a;
  	font-family: sans-serif;
- 	text-transform: uppercase;
  	font-size: 18px;
+    text-transform: none;
 }
 
 .italicized{
     font-style: italic;
 }
 
+.mobile{
+    display: none;
+}
 
+@media screen and (max-width: 1250px) {
+
+    .hide{
+        display: none;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    .hide{
+        display: none;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    body{
+        height: 900px;
+    }
+
+    .red-brick{
+        font-size: 35px
+        }
+
+    .blue-brick{
+        font-size: 12px;
+    }
+
+    .yellow-brick{
+        font-size: 15px;
+    }
+
+    .brown-brick{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .hide{
+        display: none;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    body{
+        height: 800px;
+    }
+
+    .red-brick{
+        font-size: 30px
+        }
+
+    .blue-brick{
+        font-size: 9px;
+    }
+
+    .yellow-brick{
+        font-size: 12px;
+    }
+
+    .brown-brick{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .hide{
+        display: none;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    body{
+        height: 700px;
+    }
+
+    .red-brick{
+        font-size: 25px
+        }
+
+    .blue-brick{
+        font-size: 7px;
+    }
+
+    .yellow-brick{
+        font-size: 10px;
+    }
+
+    .brown-brick{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .hide{
+        display: flex;
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .web{
+        display: none;
+    }
+
+    .brick-layout{
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    .hide{
+        display: block;
+    }
+
+    .web{
+        display: none;
+    }
+
+    .brick-layout{
+        height: 40px;
+    }
+
+}
 
