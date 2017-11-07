@@ -242,17 +242,20 @@ button {
 @media screen and (max-width: 600px) {
 
     .hide{
-        display: none;
+        display: flex;
     }
 
     .mobile{
+        display: block;
+    }
+
+    .web{
         display: none;
     }
 
-    body{
-        height: 700px;
+    .brick-layout{
+        height: 40px;
     }
-
     .red-brick{
         font-size: 25px
         }
