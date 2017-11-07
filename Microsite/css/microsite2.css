@@ -242,18 +242,14 @@ button {
 @media screen and (max-width: 600px) {
 
     body{
-        height: 1440px;
+        height: 700px;
     }
 
-    .hide{
-        display: flex;
+    .hiden{
+        display: none;
     }
 
     .mobile{
-        display: block;
-    }
-
-    .web{
         display: none;
     }
 
@@ -262,7 +258,7 @@ button {
     }
     .red-brick{
         font-size: 25px
-        }
+    }
 
     .blue-brick{
         font-size: 7px;
@@ -307,7 +303,7 @@ button {
     body{
         height: 1440px;
     }
-    
+
     .hide{
         display: block;
     }
