@@ -241,6 +241,10 @@ button {
 }
 @media screen and (max-width: 600px) {
 
+    body{
+        height: 1440px;
+    }
+
     .hide{
         display: flex;
     }
@@ -275,6 +279,11 @@ button {
 }
 
 @media screen and (max-width: 480px) {
+    
+    body{
+        height: 1440px;
+    }
+    
     .hide{
         display: flex;
     }
@@ -295,6 +304,10 @@ button {
 
 @media screen and (max-width: 320px) {
 
+    body{
+        height: 1440px;
+    }
+    
     .hide{
         display: block;
     }
