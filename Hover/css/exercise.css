@@ -1,0 +1,96 @@
+body{
+	margin: 20px;
+}
+
+.car-one{
+	background-color: blue;
+	width: 200px;
+	height: 120px;
+	position: absolute;
+	bottom: 10px;
+	left: -130vw;
+	-webkit-transition: all 2000ms ease-in-out;
+
+}
+
+.car-two{
+	background-color: blue;
+	width: 200px;
+	height: 120px;
+	position: absolute;
+	bottom: 10px;
+	left: -130vw;
+	-webkit-transition: all 500ms ease-in-out;
+
+}
+
+
+#structure {
+
+    background-color: black;
+    right: 20px;
+    position: absolute;
+  	top: 50%;
+  	transform: translateY(-50%);
+    padding-right: 30px;
+    padding-left: 30px;
+	margin: 0;
+}
+
+#lights{
+	padding: 0;
+	margin: 0;
+  	position: relative;
+ }
+
+
+#light-one {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: white;
+    border: thick solid red;
+    margin: 25px auto;
+}
+
+#light-two {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: white;
+    border: thick solid yellow;
+    margin: 25px auto;
+}
+
+#light-three {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: white;
+    border: thick solid green;
+    margin: 25px auto;
+}
+
+
+#light-one:hover{
+	background-color: red; 
+}
+
+
+#light-two:hover{
+	background-color: yellow; 
+}
+
+#light-three:hover{
+	background-color: green; 
+}
+
+#light-two:hover .car-one {
+	left: -500px;
+}
+
+#light-three:hover .car-two {
+	left: -500px;
+
+
+

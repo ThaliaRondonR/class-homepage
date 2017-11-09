@@ -1,0 +1,87 @@
+body, html {
+    background-color: #669ef9;
+    box-sizing: border-box;
+
+
+
+}
+
+.long-bar{
+    background-color: white;
+    padding: 30px;
+    margin: 50px;
+    display: flex;
+
+}
+
+.square-shared-one{
+    background-color: orange;
+    height: 100px;
+
+}
+
+.square-shared-two{
+    background-color: #30c16f;
+    height: 100px;
+}
+
+.square-shared-three{
+    background-color: #7548ce;
+    height: 100px;
+}
+
+.square-one {
+    flex: 4; 
+    padding: 10px;
+    opacity: 1.0;
+
+
+    order: 1;
+}
+
+.square-two {
+    flex: 3; 
+    padding: 10px;
+    opacity: 0.75;
+
+    order: 2;
+}
+
+.square-three {
+    flex: 2; 
+    padding: 10px;
+    opacity: 0.5;
+
+    order: 3;
+}
+
+.square-four{
+    flex: 1; 
+    padding: 10px;
+    opacity: 0.25;
+
+    order: 4;
+}
+
+.second{
+    flex: 2;
+    order: 1;
+}
+
+.third{
+    flex: 1;
+    order: 2;
+}
+
+#bottom-red{
+    background-color: #f4424e;
+    padding: 30px;
+    margin: 50px;
+}
+
+#bottom-yellow{
+    background-color: #f1f438;
+    padding: 30px;
+    margin: 50px;
+}
+

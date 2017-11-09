@@ -1,0 +1,151 @@
+body, html {
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.big-box{
+    display: flex;
+    
+
+}
+
+.yellow{
+    background-color: yellow;
+
+}
+
+.green{
+    background-color: green;
+
+}
+
+.cyan{
+    background-color: cyan;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.magenta{
+    background-color: magenta;
+}
+
+.red{
+    background-color: red;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.square-shared-orange{
+    background-color: orange;
+    height: 300px;
+
+}
+
+.square-shared-yellow{
+    background-color: yellow;
+    height: 300px;
+
+}
+
+.square-shared-green{
+    background-color: green;
+    height: 300px;
+}
+
+.square-shared-cyan{
+    background-color: cyan;
+    height: 300px;
+}
+
+.square-shared-blue{
+    background-color: blue;
+    height: 300px;
+}
+
+.square-shared-purple{
+    background-color: purple;
+    height: 300px;
+}
+
+.square-shared-magenta{
+    background-color: magenta;
+    height: 300px;
+}
+
+.square-shared-red{
+    background-color: red;
+    height: 300px;
+}
+
+
+.square-one {
+    flex: 4; 
+    opacity: 1.0;
+
+
+    order: 1;
+}
+
+.square-two {
+    flex: 3; 
+    opacity: 0.75;
+
+    order: 2;
+}
+
+.square-three {
+    flex: 2; 
+    opacity: 0.5;
+
+    order: 3;
+}
+
+.square-four{
+    flex: 1; 
+    opacity: 0.25;
+
+    order: 4;
+}
+
+.square-five {
+    flex: 4; 
+    opacity: 1.0;
+
+
+    order: 4;
+}
+
+.square-six {
+    flex: 3; 
+    opacity: 0.75;
+
+    order: 3;
+}
+
+.square-seven {
+    flex: 2; 
+    opacity: 0.5;
+
+    order: 2;
+}
+
+.square-eight{
+    flex: 1; 
+    opacity: 0.25;
+
+    order: 1;
+}
+
+
+
+
