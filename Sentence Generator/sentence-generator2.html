@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/sentence-generator2.css">
+    <title>Sentence Generator</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            // list one content
+            var one = [
+                "filthy",
+                "dirty",
+                "contaminating",
+                "unhealthy",
+                "damaging",
+                "toxic",
+                "dangerous",
+                "disposed",
+                "wasted",
+                "smelly",
+                "old",
+                "unwanted", // 3 more
+            ];
+
+            // list two content
+            var two = [
+                "plastic",
+                "metal",
+                "gas",
+                "bottle",
+                "bag",
+                "trash",
+                "waste",
+                "carbon dioxide",
+                "garbage",
+                "food",
+                "clothes",
+                "residue", // 3 more
+            ];
+            
+            // list three content
+            var three = [
+                "ocean",
+                "landfill",
+                "atmosphere",
+                "sea",
+                "air",
+                "earth",
+                "ecosystem",
+                "valley",
+                "beach",
+                "river",
+                "mountain",
+                "forest",
+                "street",
+            ];
+            
+
+            // This is a very common randomizing function.
+            // It takes a list (array) and returns one at random.
+            function select_random(x){
+                y = x[Math.floor(Math.random()*x.length)];
+                return y;
+            }
+
+            function generate(){
+
+                // Select a random item from each list
+                var selected_one = select_random(one);
+                var selected_two = select_random(two);
+                var selected_three = select_random(three);
+
+                // Take the selected (random) item from list and make it visible
+                $('.list-one').html(selected_one);
+                $('.list-two').html(selected_two);
+                $('.list-three').html(selected_three);
+
+            }
+
+            $('button').click(function(){
+                generate();
+            });
+
+            generate();
+            
+        });
+
+    </script>
+</head>
+
+<body>
+
+<div id="title">
+    <h1>
+        pla <br/>
+        net <br/>
+        for <br/>
+        tune <br/>
+    </h1>
+
+    <button id="click">see the future!</button>
+
+</div>
+
+<div id="text">
+    The <br/>
+    <span class="list-one"></span> <br/>
+    <span class="list-two"></span> <br/>
+    will go to the <br/>
+    <span class="list-three"></span>.
+</div>
+
+</body>
+
+</html>

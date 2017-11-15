@@ -1,0 +1,26 @@
+#title{
+    font-family: sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ #adj {
+     color: #ffe100;
+ }  
+        
+#noun1 {
+     color: red;
+}  
+        
+#noun2 {
+    color: #00d8ff;
+}
+
+p{
+	line-height: 30px;
+}
+
+body{
+	margin: 20px;
+}
