@@ -109,10 +109,6 @@ input[type="radio"] {
     transition:all 1s;
 }
 
-.dropdown {
-  background-color: #FFF;
-}
-
 .dropdown label {
     display: block;
     text-align: left;
