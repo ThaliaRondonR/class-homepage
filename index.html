@@ -4,41 +4,141 @@
     <meta charset="utf-8">
     <title>Thalia Rondon</title>
     <link rel="stylesheet" href="css/meta-index.css">
+
+    <style type="text/css">
+
+    input[type=checkbox] {
+        visibility: hidden;
+    }
+    
+    #example-five-checkbox:checked + #example-five:after {
+      content: "Thalia Rondon Lima, 1997 Integrated Design BFA, Parsons School of Design Class of 2020";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 50px;
+      background: white;
+      text-align: center;
+      font-size: 18px;
+      text-transform: none;
+      font-weight: normal;
+      font-family: serif;
+      color: rgb(145, 167, 208);
+    }
+
+    #example-five{
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+    }
+
+    </style>
+
 </head>
 
 <body>
 
-<div>
-	<p class="title">
-		Pro <br/>
-		jec <br/>
-		ts</p>
-    <p class="text">
-    	<a href="" target="blank">Do What?</a> <br/>
-    	<a href="" target="blank">Screenshot Photography</a> <br/>
-    	<a href="https://soundcloud.com/french-kafka" target="blank">Republish a Text</a> <br/>
-    	<a href="20 Variations/index.html" target="blank">20 Variations</a> <br/>
-    	<a href="Microsite/microsite3.html" target="blank">Event Microsite</a>  
-    </p>
+<script type="text/javascript">
+
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
+
+
+</script>
+
+<div id="title">
+    <div id="title-ex">
+        Exercises
+    </div>
+    <div id="title-pr">
+        Projects
+    </div>
+</div>	
+    
+<div id="bio">
+    <input type="checkbox" id="example-five-checkbox" />
+    <label id="example-five" for="example-five-checkbox"><img src="images/GIF.gif"></label>
+
 </div>
 
-<div>
-	<p class="title">
-		Exe <br/>
-		rci <br/>
-		ses</p>
-    <p class="text">
-    	Malevich Boxes /
-    	<a href="Boxes Exercise/Boxes.html" target="blank">One</a> /
-    	<a href="Boxes Exercise/Boxes2.html" target="blank">Two</a> /
-    	<a href="Boxes Exercise/Boxes3.html" target="blank">Three</a> /
-    	<a href="Boxes Exercise/Boxes4.html" target="blank">Four</a> <br/>	
-    	<a href="Hover/Hover Exercise.html" target="blank">Hover States</a> <br/>
-    	<a href="Abstract Grid/grid2.html" target="blank">Abstract Grid</a> <br/>
-    	<a href="Responsive Page/responsive-page.html" target="blank">Responsive Page</a> <br/> 
-    	<a href="Sentence Generator/sentence-generator2.html" target="blank">Sentence Generator</a> <br/> 
-    </p>
+<div id="menu">
+    <div id="exercises">
+    	<p id="malevich"> 
+            Malevich Boxes<br/>
+            <span id="malevich-text" class="descriptions">
+                Compositions with 1, 2, 3 and 4 boxes, using different CSS position values (static, relative, fixed, absolute) and shades of black <br/>
+                <a href="Boxes Exercise/Boxes.html" target="blank">One /</a> 
+        	   <a href="Boxes Exercise/Boxes2.html" target="blank">Two /</a> 
+        	   <a href="Boxes Exercise/Boxes3.html" target="blank">Three /</a> 
+        	   <a href="Boxes Exercise/Boxes4.html" target="blank">Four /</a>
+            </span>
+        </p>   
+        <p id="hover"> 
+            <a href="Hover/Hover Exercise.html" target="blank">Hover States</a>
+            <span id="hover-text" class="descriptions">Using a single hover state on a one-page website</span>
+        </p>
+        <p id="responsive"> 
+            <a href="Responsive Page/responsive-page.html" target="blank">Responsive Page</a>
+            <span id="responsive-text" class="descriptions">
+                Making a website responsive to different breakpoints by using media queries </span>
+        </p>
+
+        <p id="abstract"> 
+            <a href="Abstract Grid/grid2.html" target="blank">Abstract Grid</a> 
+            <span id="abstract-text" class="descriptions">
+                Elaborating an abstract grid using different colored divs and the flex display</span>
+        </p>
+    	<p id="sentence"> 
+            <a href="Sentence Generator/sentence-generator2.html" target="blank">Sentence Generator</a> 
+            <span id="sentence-text" class="descriptions">
+                Generating random sentences using three variables without losing grammatical sense</span>
+        </p>
+        <p></p>
+    </div>
+
+    <div id="projects">
+        <p id="dowhat">
+            <a href="Do What/DoWhat.jpg" target="blank">Do What?</a> <br/>
+             <span id="dowhat-text" class="descriptions">
+                Creating a set of instructions around the theme of mobile cellphone usage, made with Margaux Temmerman</span> 
+        </p>
+        <p id="screenshot">
+            <a href="Screenshot/screenshot.html" target="blank">Screenshot Photography</a> <br/>
+            <span id="screenshot-text" class="descriptions">
+                Screenshots taken at 8 pm to show the applications and tabs currently being used</span>
+        </p>
+        <p id="republish">
+            <a href="https://soundcloud.com/french-kafka" target="blank">Republish a Text</a> 
+            <span id="republish-text" class="descriptions">
+                Republishing Kafka's Metamorphosis using SoundClound and Google Translate to play on the controversy behind the text's different translations</span>
+        </p>
+        <p id="variations">
+            <a href="20 Variations/index.html" target="blank">20 Variations</a> 
+            <span id="variations-text" class="descriptions">
+                Creating 10 variations of the same poem using different HTML and CSS in 4 levels with different restrictions</span>
+        </p>
+        <p id="microsite">
+            <a href="Microsite/microsite3.html" target="blank">Event Microsite</a>
+            <span id="microsite-text" class="descriptions">
+                Designing a microsite for an event - a concert in a warehouse - using purely CSS, and which is responsive between mobile and screen formats</span>
+        </p>
+        <p></p>
+    </div>
 </div>
+
+<div id="footer">
+    <div id="footer-ex"></div>
+    <div id="footer-pr"></div>
+</footer>
 
 
 </body>
